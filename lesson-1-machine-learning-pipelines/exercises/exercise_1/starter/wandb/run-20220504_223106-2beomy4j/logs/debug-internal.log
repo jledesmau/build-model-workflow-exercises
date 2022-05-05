@@ -1,0 +1,160 @@
+2022-05-04 22:31:07,364 INFO    MainThread:2565 [internal.py:wandb_internal():90] W&B internal server running at pid: 2565, started at: 2022-05-04 22:31:07.364508
+2022-05-04 22:31:07,368 DEBUG   SenderThread:2565 [sender.py:send():232] send: header
+2022-05-04 22:31:07,368 INFO    WriterThread:2565 [datastore.py:open_for_write():75] open: /home/jledesmau/build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20220504_223106-2beomy4j/run-2beomy4j.wandb
+2022-05-04 22:31:07,368 DEBUG   SenderThread:2565 [sender.py:send():232] send: run
+2022-05-04 22:31:07,765 DEBUG   HandlerThread:2565 [handler.py:handle_request():141] handle_request: check_version
+2022-05-04 22:31:07,768 INFO    SenderThread:2565 [dir_watcher.py:__init__():166] watching files in: /home/jledesmau/build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20220504_223106-2beomy4j/files
+2022-05-04 22:31:07,768 INFO    SenderThread:2565 [sender.py:_start_run_threads():811] run started: 2beomy4j with start time 1651717866
+2022-05-04 22:31:07,768 DEBUG   SenderThread:2565 [sender.py:send():232] send: summary
+2022-05-04 22:31:07,769 INFO    SenderThread:2565 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-04 22:31:07,769 DEBUG   SenderThread:2565 [sender.py:send_request():246] send_request: check_version
+2022-05-04 22:31:07,947 DEBUG   HandlerThread:2565 [handler.py:handle_request():141] handle_request: run_start
+2022-05-04 22:31:07,948 DEBUG   HandlerThread:2565 [meta.py:__init__():35] meta init
+2022-05-04 22:31:07,948 DEBUG   HandlerThread:2565 [meta.py:__init__():49] meta init done
+2022-05-04 22:31:07,948 DEBUG   HandlerThread:2565 [meta.py:probe():209] probe
+2022-05-04 22:31:07,950 DEBUG   HandlerThread:2565 [meta.py:_setup_git():199] setup git
+2022-05-04 22:31:07,958 DEBUG   HandlerThread:2565 [meta.py:_setup_git():206] setup git done
+2022-05-04 22:31:07,958 DEBUG   HandlerThread:2565 [meta.py:_save_pip():53] save pip
+2022-05-04 22:31:07,959 DEBUG   HandlerThread:2565 [meta.py:_save_pip():67] save pip done
+2022-05-04 22:31:07,959 DEBUG   HandlerThread:2565 [meta.py:_save_conda():74] save conda
+2022-05-04 22:31:08,770 INFO    Thread-7  :2565 [dir_watcher.py:_on_file_created():213] file/dir created: /home/jledesmau/build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20220504_223106-2beomy4j/files/requirements.txt
+2022-05-04 22:31:08,770 INFO    Thread-7  :2565 [dir_watcher.py:_on_file_created():213] file/dir created: /home/jledesmau/build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20220504_223106-2beomy4j/files/wandb-summary.json
+2022-05-04 22:31:08,770 INFO    Thread-7  :2565 [dir_watcher.py:_on_file_created():213] file/dir created: /home/jledesmau/build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20220504_223106-2beomy4j/files/conda-environment.yaml
+2022-05-04 22:31:11,727 DEBUG   HandlerThread:2565 [meta.py:_save_conda():84] save conda done
+2022-05-04 22:31:11,727 DEBUG   HandlerThread:2565 [meta.py:probe():247] probe done
+2022-05-04 22:31:11,730 DEBUG   SenderThread:2565 [sender.py:send():232] send: files
+2022-05-04 22:31:11,730 INFO    SenderThread:2565 [sender.py:_save_file():946] saving file wandb-metadata.json with policy now
+2022-05-04 22:31:11,734 DEBUG   HandlerThread:2565 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-04 22:31:11,734 DEBUG   SenderThread:2565 [sender.py:send_request():246] send_request: stop_status
+2022-05-04 22:31:11,771 INFO    Thread-7  :2565 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jledesmau/build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20220504_223106-2beomy4j/files/conda-environment.yaml
+2022-05-04 22:31:11,772 INFO    Thread-7  :2565 [dir_watcher.py:_on_file_created():213] file/dir created: /home/jledesmau/build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20220504_223106-2beomy4j/files/wandb-metadata.json
+2022-05-04 22:31:11,772 INFO    Thread-7  :2565 [dir_watcher.py:_on_file_created():213] file/dir created: /home/jledesmau/build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20220504_223106-2beomy4j/files/output.log
+2022-05-04 22:31:11,911 DEBUG   SenderThread:2565 [sender.py:send():232] send: telemetry
+2022-05-04 22:31:11,931 DEBUG   HandlerThread:2565 [handler.py:handle_request():141] handle_request: log_artifact
+2022-05-04 22:31:11,931 DEBUG   SenderThread:2565 [sender.py:send_request():246] send_request: log_artifact
+2022-05-04 22:31:12,329 INFO    Thread-11 :2565 [upload_job.py:push():137] Uploaded file /tmp/tmpe9bmovu4wandb/3sc8a0oh-wandb-metadata.json
+2022-05-04 22:31:12,482 INFO    SenderThread:2565 [sender.py:send_request_log_artifact():1001] logged artifact zen_of_python - {'id': 'QXJ0aWZhY3Q6MTIzMDAyMTc4', 'digest': '1b7e6a0ba35708083b2e58e89debf010', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'zen_of_python', 'alias': 'latest'}, {'artifactCollectionName': 'zen_of_python', 'alias': 'v1'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE5NzcyODM1', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTIzMDAyMTc4', 'versionIndex': 1}}, 'version': 'v1'}
+2022-05-04 22:31:12,483 DEBUG   SenderThread:2565 [sender.py:send():232] send: telemetry
+2022-05-04 22:31:12,483 DEBUG   SenderThread:2565 [sender.py:send():232] send: telemetry
+2022-05-04 22:31:13,772 INFO    Thread-7  :2565 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jledesmau/build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20220504_223106-2beomy4j/files/output.log
+2022-05-04 22:31:14,240 DEBUG   HandlerThread:2565 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-04 22:31:14,241 DEBUG   SenderThread:2565 [sender.py:send():232] send: exit
+2022-05-04 22:31:14,241 INFO    SenderThread:2565 [sender.py:send_exit():368] handling exit code: 0
+2022-05-04 22:31:14,241 INFO    SenderThread:2565 [sender.py:send_exit():370] handling runtime: 6
+2022-05-04 22:31:14,241 INFO    SenderThread:2565 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-04 22:31:14,242 INFO    SenderThread:2565 [sender.py:send_exit():376] send defer
+2022-05-04 22:31:14,242 DEBUG   SenderThread:2565 [sender.py:send_request():246] send_request: poll_exit
+2022-05-04 22:31:14,242 DEBUG   HandlerThread:2565 [handler.py:handle_request():141] handle_request: defer
+2022-05-04 22:31:14,242 INFO    HandlerThread:2565 [handler.py:handle_request_defer():164] handle defer: 0
+2022-05-04 22:31:14,243 DEBUG   SenderThread:2565 [sender.py:send_request():246] send_request: defer
+2022-05-04 22:31:14,243 INFO    SenderThread:2565 [sender.py:send_request_defer():385] handle sender defer: 0
+2022-05-04 22:31:14,243 INFO    SenderThread:2565 [sender.py:transition_state():389] send defer: 1
+2022-05-04 22:31:14,243 DEBUG   HandlerThread:2565 [handler.py:handle_request():141] handle_request: defer
+2022-05-04 22:31:14,243 INFO    HandlerThread:2565 [handler.py:handle_request_defer():164] handle defer: 1
+2022-05-04 22:31:14,274 DEBUG   SenderThread:2565 [sender.py:send_request():246] send_request: defer
+2022-05-04 22:31:14,274 INFO    SenderThread:2565 [sender.py:send_request_defer():385] handle sender defer: 1
+2022-05-04 22:31:14,274 INFO    SenderThread:2565 [sender.py:transition_state():389] send defer: 2
+2022-05-04 22:31:14,274 DEBUG   SenderThread:2565 [sender.py:send():232] send: stats
+2022-05-04 22:31:14,275 DEBUG   HandlerThread:2565 [handler.py:handle_request():141] handle_request: defer
+2022-05-04 22:31:14,275 INFO    HandlerThread:2565 [handler.py:handle_request_defer():164] handle defer: 2
+2022-05-04 22:31:14,275 DEBUG   SenderThread:2565 [sender.py:send_request():246] send_request: defer
+2022-05-04 22:31:14,275 INFO    SenderThread:2565 [sender.py:send_request_defer():385] handle sender defer: 2
+2022-05-04 22:31:14,275 INFO    SenderThread:2565 [sender.py:transition_state():389] send defer: 3
+2022-05-04 22:31:14,275 DEBUG   HandlerThread:2565 [handler.py:handle_request():141] handle_request: defer
+2022-05-04 22:31:14,276 INFO    HandlerThread:2565 [handler.py:handle_request_defer():164] handle defer: 3
+2022-05-04 22:31:14,276 DEBUG   SenderThread:2565 [sender.py:send_request():246] send_request: defer
+2022-05-04 22:31:14,276 INFO    SenderThread:2565 [sender.py:send_request_defer():385] handle sender defer: 3
+2022-05-04 22:31:14,276 INFO    SenderThread:2565 [sender.py:transition_state():389] send defer: 4
+2022-05-04 22:31:14,276 DEBUG   HandlerThread:2565 [handler.py:handle_request():141] handle_request: defer
+2022-05-04 22:31:14,276 INFO    HandlerThread:2565 [handler.py:handle_request_defer():164] handle defer: 4
+2022-05-04 22:31:14,276 DEBUG   SenderThread:2565 [sender.py:send():232] send: summary
+2022-05-04 22:31:14,277 INFO    SenderThread:2565 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-04 22:31:14,277 DEBUG   SenderThread:2565 [sender.py:send_request():246] send_request: defer
+2022-05-04 22:31:14,277 INFO    SenderThread:2565 [sender.py:send_request_defer():385] handle sender defer: 4
+2022-05-04 22:31:14,277 INFO    SenderThread:2565 [sender.py:transition_state():389] send defer: 5
+2022-05-04 22:31:14,277 DEBUG   HandlerThread:2565 [handler.py:handle_request():141] handle_request: defer
+2022-05-04 22:31:14,278 INFO    HandlerThread:2565 [handler.py:handle_request_defer():164] handle defer: 5
+2022-05-04 22:31:14,278 DEBUG   SenderThread:2565 [sender.py:send_request():246] send_request: defer
+2022-05-04 22:31:14,278 INFO    SenderThread:2565 [sender.py:send_request_defer():385] handle sender defer: 5
+2022-05-04 22:31:14,344 DEBUG   HandlerThread:2565 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-04 22:31:14,465 INFO    SenderThread:2565 [sender.py:transition_state():389] send defer: 6
+2022-05-04 22:31:14,466 DEBUG   SenderThread:2565 [sender.py:send_request():246] send_request: poll_exit
+2022-05-04 22:31:14,466 DEBUG   HandlerThread:2565 [handler.py:handle_request():141] handle_request: defer
+2022-05-04 22:31:14,466 INFO    HandlerThread:2565 [handler.py:handle_request_defer():164] handle defer: 6
+2022-05-04 22:31:14,467 DEBUG   SenderThread:2565 [sender.py:send_request():246] send_request: defer
+2022-05-04 22:31:14,467 INFO    SenderThread:2565 [sender.py:send_request_defer():385] handle sender defer: 6
+2022-05-04 22:31:14,467 INFO    SenderThread:2565 [dir_watcher.py:finish():279] shutting down directory watcher
+2022-05-04 22:31:14,568 DEBUG   HandlerThread:2565 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-04 22:31:14,773 INFO    Thread-7  :2565 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jledesmau/build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20220504_223106-2beomy4j/files/config.yaml
+2022-05-04 22:31:14,774 INFO    SenderThread:2565 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jledesmau/build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20220504_223106-2beomy4j/files/wandb-summary.json
+2022-05-04 22:31:14,774 INFO    SenderThread:2565 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jledesmau/build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20220504_223106-2beomy4j/files/output.log
+2022-05-04 22:31:14,774 INFO    SenderThread:2565 [dir_watcher.py:finish():309] scan: /home/jledesmau/build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20220504_223106-2beomy4j/files
+2022-05-04 22:31:14,774 INFO    SenderThread:2565 [dir_watcher.py:finish():323] scan save: /home/jledesmau/build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20220504_223106-2beomy4j/files/output.log output.log
+2022-05-04 22:31:14,774 INFO    SenderThread:2565 [dir_watcher.py:finish():323] scan save: /home/jledesmau/build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20220504_223106-2beomy4j/files/conda-environment.yaml conda-environment.yaml
+2022-05-04 22:31:14,775 INFO    SenderThread:2565 [dir_watcher.py:finish():323] scan save: /home/jledesmau/build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20220504_223106-2beomy4j/files/config.yaml config.yaml
+2022-05-04 22:31:14,775 INFO    SenderThread:2565 [dir_watcher.py:finish():323] scan save: /home/jledesmau/build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20220504_223106-2beomy4j/files/wandb-metadata.json wandb-metadata.json
+2022-05-04 22:31:14,775 INFO    SenderThread:2565 [dir_watcher.py:finish():323] scan save: /home/jledesmau/build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20220504_223106-2beomy4j/files/requirements.txt requirements.txt
+2022-05-04 22:31:14,775 INFO    SenderThread:2565 [dir_watcher.py:finish():323] scan save: /home/jledesmau/build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20220504_223106-2beomy4j/files/wandb-summary.json wandb-summary.json
+2022-05-04 22:31:14,775 INFO    SenderThread:2565 [sender.py:transition_state():389] send defer: 7
+2022-05-04 22:31:14,776 DEBUG   SenderThread:2565 [sender.py:send_request():246] send_request: poll_exit
+2022-05-04 22:31:14,777 DEBUG   HandlerThread:2565 [handler.py:handle_request():141] handle_request: defer
+2022-05-04 22:31:14,777 INFO    HandlerThread:2565 [handler.py:handle_request_defer():164] handle defer: 7
+2022-05-04 22:31:14,777 DEBUG   SenderThread:2565 [sender.py:send_request():246] send_request: defer
+2022-05-04 22:31:14,777 INFO    SenderThread:2565 [sender.py:send_request_defer():385] handle sender defer: 7
+2022-05-04 22:31:14,777 INFO    SenderThread:2565 [file_pusher.py:finish():145] shutting down file pusher
+2022-05-04 22:31:14,878 DEBUG   HandlerThread:2565 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-04 22:31:14,878 DEBUG   SenderThread:2565 [sender.py:send_request():246] send_request: poll_exit
+2022-05-04 22:31:14,980 DEBUG   HandlerThread:2565 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-04 22:31:14,980 DEBUG   SenderThread:2565 [sender.py:send_request():246] send_request: poll_exit
+2022-05-04 22:31:15,084 DEBUG   HandlerThread:2565 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-04 22:31:15,084 DEBUG   SenderThread:2565 [sender.py:send_request():246] send_request: poll_exit
+2022-05-04 22:31:15,186 DEBUG   HandlerThread:2565 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-04 22:31:15,186 DEBUG   SenderThread:2565 [sender.py:send_request():246] send_request: poll_exit
+2022-05-04 22:31:15,288 DEBUG   HandlerThread:2565 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-04 22:31:15,288 DEBUG   SenderThread:2565 [sender.py:send_request():246] send_request: poll_exit
+2022-05-04 22:31:15,365 INFO    Thread-16 :2565 [upload_job.py:push():137] Uploaded file /home/jledesmau/build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20220504_223106-2beomy4j/files/wandb-summary.json
+2022-05-04 22:31:15,390 DEBUG   HandlerThread:2565 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-04 22:31:15,390 DEBUG   SenderThread:2565 [sender.py:send_request():246] send_request: poll_exit
+2022-05-04 22:31:15,407 INFO    Thread-13 :2565 [upload_job.py:push():137] Uploaded file /home/jledesmau/build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20220504_223106-2beomy4j/files/conda-environment.yaml
+2022-05-04 22:31:15,438 INFO    Thread-15 :2565 [upload_job.py:push():137] Uploaded file /home/jledesmau/build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20220504_223106-2beomy4j/files/requirements.txt
+2022-05-04 22:31:15,443 INFO    Thread-12 :2565 [upload_job.py:push():137] Uploaded file /home/jledesmau/build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20220504_223106-2beomy4j/files/output.log
+2022-05-04 22:31:15,492 DEBUG   HandlerThread:2565 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-04 22:31:15,492 DEBUG   SenderThread:2565 [sender.py:send_request():246] send_request: poll_exit
+2022-05-04 22:31:15,594 DEBUG   HandlerThread:2565 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-04 22:31:15,595 DEBUG   SenderThread:2565 [sender.py:send_request():246] send_request: poll_exit
+2022-05-04 22:31:15,608 INFO    Thread-14 :2565 [upload_job.py:push():137] Uploaded file /home/jledesmau/build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20220504_223106-2beomy4j/files/config.yaml
+2022-05-04 22:31:15,696 DEBUG   HandlerThread:2565 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-04 22:31:15,696 DEBUG   SenderThread:2565 [sender.py:send_request():246] send_request: poll_exit
+2022-05-04 22:31:15,799 DEBUG   HandlerThread:2565 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-04 22:31:15,799 DEBUG   SenderThread:2565 [sender.py:send_request():246] send_request: poll_exit
+2022-05-04 22:31:15,809 INFO    Thread-6  :2565 [sender.py:transition_state():389] send defer: 8
+2022-05-04 22:31:15,810 DEBUG   HandlerThread:2565 [handler.py:handle_request():141] handle_request: defer
+2022-05-04 22:31:15,810 INFO    HandlerThread:2565 [handler.py:handle_request_defer():164] handle defer: 8
+2022-05-04 22:31:15,810 DEBUG   SenderThread:2565 [sender.py:send_request():246] send_request: defer
+2022-05-04 22:31:15,810 INFO    SenderThread:2565 [sender.py:send_request_defer():385] handle sender defer: 8
+2022-05-04 22:31:15,901 DEBUG   HandlerThread:2565 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-04 22:31:16,392 INFO    SenderThread:2565 [sender.py:transition_state():389] send defer: 9
+2022-05-04 22:31:16,392 DEBUG   SenderThread:2565 [sender.py:send_request():246] send_request: poll_exit
+2022-05-04 22:31:16,393 DEBUG   HandlerThread:2565 [handler.py:handle_request():141] handle_request: defer
+2022-05-04 22:31:16,393 INFO    HandlerThread:2565 [handler.py:handle_request_defer():164] handle defer: 9
+2022-05-04 22:31:16,393 DEBUG   SenderThread:2565 [sender.py:send_request():246] send_request: defer
+2022-05-04 22:31:16,393 INFO    SenderThread:2565 [sender.py:send_request_defer():385] handle sender defer: 9
+2022-05-04 22:31:16,393 INFO    SenderThread:2565 [sender.py:transition_state():389] send defer: 10
+2022-05-04 22:31:16,394 DEBUG   HandlerThread:2565 [handler.py:handle_request():141] handle_request: defer
+2022-05-04 22:31:16,394 INFO    HandlerThread:2565 [handler.py:handle_request_defer():164] handle defer: 10
+2022-05-04 22:31:16,395 DEBUG   SenderThread:2565 [sender.py:send():232] send: final
+2022-05-04 22:31:16,395 DEBUG   SenderThread:2565 [sender.py:send():232] send: footer
+2022-05-04 22:31:16,395 DEBUG   SenderThread:2565 [sender.py:send_request():246] send_request: defer
+2022-05-04 22:31:16,395 INFO    SenderThread:2565 [sender.py:send_request_defer():385] handle sender defer: 10
+2022-05-04 22:31:16,494 DEBUG   HandlerThread:2565 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-04 22:31:16,495 DEBUG   SenderThread:2565 [sender.py:send_request():246] send_request: poll_exit
+2022-05-04 22:31:16,495 INFO    SenderThread:2565 [file_pusher.py:join():150] waiting for file pusher
+2022-05-04 22:31:16,764 DEBUG   HandlerThread:2565 [handler.py:handle_request():141] handle_request: sampled_history
+2022-05-04 22:31:16,766 DEBUG   HandlerThread:2565 [handler.py:handle_request():141] handle_request: get_summary
+2022-05-04 22:31:16,766 DEBUG   HandlerThread:2565 [handler.py:handle_request():141] handle_request: shutdown
+2022-05-04 22:31:16,766 INFO    HandlerThread:2565 [handler.py:finish():806] shutting down handler
+2022-05-04 22:31:17,395 INFO    WriterThread:2565 [datastore.py:close():279] close: /home/jledesmau/build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20220504_223106-2beomy4j/run-2beomy4j.wandb
+2022-05-04 22:31:17,663 INFO    SenderThread:2565 [sender.py:finish():1106] shutting down sender
+2022-05-04 22:31:17,663 INFO    SenderThread:2565 [file_pusher.py:finish():145] shutting down file pusher
+2022-05-04 22:31:17,663 INFO    SenderThread:2565 [file_pusher.py:join():150] waiting for file pusher
+2022-05-04 22:31:17,665 INFO    MainThread:2565 [internal.py:handle_exit():80] Internal process exited
