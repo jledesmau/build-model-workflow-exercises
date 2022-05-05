@@ -1,0 +1,31 @@
+{
+    "os": "Linux-5.10.16.3-microsoft-standard-WSL2-x86_64-with-glibc2.31",
+    "python": "3.10.4",
+    "heartbeatAt": "2022-05-05T04:56:08.811129",
+    "startedAt": "2022-05-05T04:56:08.148937",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "--file_url",
+        "https://raw.githubusercontent.com/scikit-learn/scikit-learn/4dfdfb4e1bb3719628753a4ece995a1b2fa5312a/sklearn/datasets/data/iris.csv",
+        "--artifact_name",
+        "iris.csv",
+        "--artifact_type",
+        "raw_data",
+        "--artifact_description",
+        "Input data"
+    ],
+    "state": "running",
+    "program": "/home/jledesmau/build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/download_data/download_data.py",
+    "codePath": "lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/download_data/download_data.py",
+    "git": {
+        "remote": "https://github.com/jledesmau/build-model-workflow-exercises.git",
+        "commit": "c10a3c511225727f9fe9d9a280560d340324936c"
+    },
+    "email": "jledesmau@gmail.com",
+    "root": "/home/jledesmau/build-model-workflow-exercises",
+    "host": "LAPTOP-OPH8MA4M",
+    "username": "jledesmau",
+    "executable": "/home/jledesmau/miniconda3/envs/mlflow-d0a7fb2a41bbf1dd923ab15e01c5200a60fc040a/bin/python"
+}

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jledesmau/build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_2/starter/mlruns/0/845ca3e1e2614b73be2241b9c55a021c/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 845ca3e1e2614b73be2241b9c55a021c
+run_uuid: 845ca3e1e2614b73be2241b9c55a021c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1651722491755
+status: 1
+tags: []
+user_id: jledesmau

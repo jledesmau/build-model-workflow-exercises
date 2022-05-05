@@ -1,0 +1,33 @@
+2022-05-05 00:55:24,782 Downloading artifact
+[34m[1mwandb[39m[22m: [32m[41mERROR[39m[49m Project jledesmau/experiment_3 does not contain artifact: "iris.csv:lastest"
+Traceback (most recent call last):
+  File "/home/jledesmau/miniconda3/envs/mlflow-e3cfb7a74d85231d35f2d020767abda843c456b6/lib/python3.8/site-packages/wandb/apis/normalize.py", line 22, in wrapper
+    return func(*args, **kwargs)
+  File "/home/jledesmau/miniconda3/envs/mlflow-e3cfb7a74d85231d35f2d020767abda843c456b6/lib/python3.8/site-packages/wandb/apis/public.py", line 777, in artifact
+    artifact = Artifact(self.client, entity, project, artifact_name)
+  File "/home/jledesmau/miniconda3/envs/mlflow-e3cfb7a74d85231d35f2d020767abda843c456b6/lib/python3.8/site-packages/wandb/apis/public.py", line 3493, in __init__
+    self._load()
+  File "/home/jledesmau/miniconda3/envs/mlflow-e3cfb7a74d85231d35f2d020767abda843c456b6/lib/python3.8/site-packages/wandb/apis/public.py", line 4060, in _load
+    raise ValueError(
+ValueError: Project jledesmau/experiment_3 does not contain artifact: "iris.csv:lastest"
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "run.py", line 88, in <module>
+    go(args)
+  File "run.py", line 19, in go
+    artifact = run.use_artifact(args.input_artifact)
+  File "/home/jledesmau/miniconda3/envs/mlflow-e3cfb7a74d85231d35f2d020767abda843c456b6/lib/python3.8/site-packages/wandb/sdk/wandb_run.py", line 222, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/jledesmau/miniconda3/envs/mlflow-e3cfb7a74d85231d35f2d020767abda843c456b6/lib/python3.8/site-packages/wandb/sdk/wandb_run.py", line 2308, in use_artifact
+    artifact = public_api.artifact(type=type, name=name)
+  File "/home/jledesmau/miniconda3/envs/mlflow-e3cfb7a74d85231d35f2d020767abda843c456b6/lib/python3.8/site-packages/wandb/apis/normalize.py", line 58, in wrapper
+    raise CommError(message, err).with_traceback(sys.exc_info()[2])
+  File "/home/jledesmau/miniconda3/envs/mlflow-e3cfb7a74d85231d35f2d020767abda843c456b6/lib/python3.8/site-packages/wandb/apis/normalize.py", line 22, in wrapper
+    return func(*args, **kwargs)
+  File "/home/jledesmau/miniconda3/envs/mlflow-e3cfb7a74d85231d35f2d020767abda843c456b6/lib/python3.8/site-packages/wandb/apis/public.py", line 777, in artifact
+    artifact = Artifact(self.client, entity, project, artifact_name)
+  File "/home/jledesmau/miniconda3/envs/mlflow-e3cfb7a74d85231d35f2d020767abda843c456b6/lib/python3.8/site-packages/wandb/apis/public.py", line 3493, in __init__
+    self._load()
+  File "/home/jledesmau/miniconda3/envs/mlflow-e3cfb7a74d85231d35f2d020767abda843c456b6/lib/python3.8/site-packages/wandb/apis/public.py", line 4060, in _load
+    raise ValueError(
+wandb.errors.CommError: Project jledesmau/experiment_3 does not contain artifact: "iris.csv:lastest"
