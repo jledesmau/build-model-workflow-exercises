@@ -11,10 +11,25 @@ logger = logging.getLogger()
 
 def go(args):
 
-    run = wandb.init(project="exercise_5", job_type="process_data")
+    run = wandb.init(project="exercise_5", group = "experiment_!", job_type="process_data")
 
-    ## YOUR CODE HERE
-    pass
+    artifact = run.use_artifact(args.input_artifact)
+    
+    df = pd.read_parquet(artifact.file())
+    
+    df = df.drop_duplicates().reset_index(drop=True)
+    
+    df['title'].fillna(value='', inplace=True)
+    df['song_name'].fillna(value='', inplace=True)
+    df['text_feature'] = df['title'] + ' ' + df['song_name']
+    
+    df.to_csv(args.artifact_name, index=False)
+
+    artifact.add_file("preprocessed_data.csv")
+
+    run.log_artifact(artifact)
+
+    run.finish()
 
 
 if __name__ == "__main__":

@@ -1,0 +1,157 @@
+
+
+
+
+
+
+
+
+Summarize dataset: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 153/153 [00:16<00:00,  9.24it/s, Completed]
+
+Generate report structure: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:03<00:00,  3.89s/it]
+Collecting package metadata (current_repodata.json): done
+Solving environment: done
+==> WARNING: A newer version of conda exists. <==
+  current version: 4.11.0
+  latest version: 4.12.0
+Please update conda by running
+    $ conda update -n base -c defaults conda
+## Package Plan ##
+  environment location: /home/jledesmau/miniconda3/envs/mlflow-6e5e500b8d3267655614239347064c567a25ec25
+  added / updated specs:
+    - ipywidgets
+The following packages will be downloaded:
+    package                    |            build
+    ---------------------------|-----------------
+    ca-certificates-2022.4.26  |       h06a4308_0         124 KB
+    ipywidgets-7.6.5           |     pyhd3eb1b0_1         105 KB
+    jupyterlab_widgets-1.0.0   |     pyhd3eb1b0_1         109 KB
+    openssl-1.1.1n             |       h7f8727e_0         2.5 MB
+    widgetsnbextension-3.5.2   |   py39h06a4308_0         645 KB
+    ------------------------------------------------------------
+                                           Total:         3.5 MB
+The following NEW packages will be INSTALLED:
+  ipywidgets         pkgs/main/noarch::ipywidgets-7.6.5-pyhd3eb1b0_1
+  jupyterlab_widgets pkgs/main/noarch::jupyterlab_widgets-1.0.0-pyhd3eb1b0_1
+  widgetsnbextension pkgs/main/linux-64::widgetsnbextension-3.5.2-py39h06a4308_0
+The following packages will be UPDATED:
+  ca-certificates    conda-forge::ca-certificates-2021.10.~ --> pkgs/main::ca-certificates-2022.4.26-h06a4308_0
+The following packages will be SUPERSEDED by a higher-priority channel:
+  certifi            conda-forge::certifi-2021.10.8-py39hf~ --> pkgs/main::certifi-2021.10.8-py39h06a4308_2
+  openssl            conda-forge::openssl-1.1.1o-h166bdaf_0 --> pkgs/main::openssl-1.1.1n-h7f8727e_0
+Proceed ([y]/n)? ^C
+CondaSystemExit:
+Operation aborted.  Exiting.
+Collecting ipywidgets
+  Downloading ipywidgets-7.7.0-py2.py3-none-any.whl (123 kB)
+     |████████████████████████████████| 123 kB 1.1 MB/s
+[?25hRequirement already satisfied: ipython>=4.0.0 in /home/jledesmau/miniconda3/envs/mlflow-6e5e500b8d3267655614239347064c567a25ec25/lib/python3.9/site-packages (from ipywidgets) (8.3.0)
+Requirement already satisfied: nbformat>=4.2.0 in /home/jledesmau/miniconda3/envs/mlflow-6e5e500b8d3267655614239347064c567a25ec25/lib/python3.9/site-packages (from ipywidgets) (5.4.0)
+Requirement already satisfied: ipykernel>=4.5.1 in /home/jledesmau/miniconda3/envs/mlflow-6e5e500b8d3267655614239347064c567a25ec25/lib/python3.9/site-packages (from ipywidgets) (6.13.0)
+Requirement already satisfied: ipython-genutils~=0.2.0 in /home/jledesmau/miniconda3/envs/mlflow-6e5e500b8d3267655614239347064c567a25ec25/lib/python3.9/site-packages (from ipywidgets) (0.2.0)
+Requirement already satisfied: traitlets>=4.3.1 in /home/jledesmau/miniconda3/envs/mlflow-6e5e500b8d3267655614239347064c567a25ec25/lib/python3.9/site-packages (from ipywidgets) (5.1.1)
+Requirement already satisfied: debugpy>=1.0 in /home/jledesmau/miniconda3/envs/mlflow-6e5e500b8d3267655614239347064c567a25ec25/lib/python3.9/site-packages (from ipykernel>=4.5.1->ipywidgets) (1.6.0)
+Requirement already satisfied: matplotlib-inline>=0.1 in /home/jledesmau/miniconda3/envs/mlflow-6e5e500b8d3267655614239347064c567a25ec25/lib/python3.9/site-packages (from ipykernel>=4.5.1->ipywidgets) (0.1.3)
+Requirement already satisfied: psutil in /home/jledesmau/miniconda3/envs/mlflow-6e5e500b8d3267655614239347064c567a25ec25/lib/python3.9/site-packages (from ipykernel>=4.5.1->ipywidgets) (5.9.0)
+Requirement already satisfied: tornado>=6.1 in /home/jledesmau/miniconda3/envs/mlflow-6e5e500b8d3267655614239347064c567a25ec25/lib/python3.9/site-packages (from ipykernel>=4.5.1->ipywidgets) (6.1)
+Requirement already satisfied: jupyter-client>=6.1.12 in /home/jledesmau/miniconda3/envs/mlflow-6e5e500b8d3267655614239347064c567a25ec25/lib/python3.9/site-packages (from ipykernel>=4.5.1->ipywidgets) (7.3.0)
+Requirement already satisfied: nest-asyncio in /home/jledesmau/miniconda3/envs/mlflow-6e5e500b8d3267655614239347064c567a25ec25/lib/python3.9/site-packages (from ipykernel>=4.5.1->ipywidgets) (1.5.5)
+Requirement already satisfied: packaging in /home/jledesmau/miniconda3/envs/mlflow-6e5e500b8d3267655614239347064c567a25ec25/lib/python3.9/site-packages (from ipykernel>=4.5.1->ipywidgets) (21.3)
+Requirement already satisfied: jedi>=0.16 in /home/jledesmau/miniconda3/envs/mlflow-6e5e500b8d3267655614239347064c567a25ec25/lib/python3.9/site-packages (from ipython>=4.0.0->ipywidgets) (0.18.1)
+Requirement already satisfied: pygments>=2.4.0 in /home/jledesmau/miniconda3/envs/mlflow-6e5e500b8d3267655614239347064c567a25ec25/lib/python3.9/site-packages (from ipython>=4.0.0->ipywidgets) (2.12.0)
+Requirement already satisfied: pexpect>4.3 in /home/jledesmau/miniconda3/envs/mlflow-6e5e500b8d3267655614239347064c567a25ec25/lib/python3.9/site-packages (from ipython>=4.0.0->ipywidgets) (4.8.0)
+Requirement already satisfied: backcall in /home/jledesmau/miniconda3/envs/mlflow-6e5e500b8d3267655614239347064c567a25ec25/lib/python3.9/site-packages (from ipython>=4.0.0->ipywidgets) (0.2.0)
+Requirement already satisfied: stack-data in /home/jledesmau/miniconda3/envs/mlflow-6e5e500b8d3267655614239347064c567a25ec25/lib/python3.9/site-packages (from ipython>=4.0.0->ipywidgets) (0.2.0)
+Requirement already satisfied: pickleshare in /home/jledesmau/miniconda3/envs/mlflow-6e5e500b8d3267655614239347064c567a25ec25/lib/python3.9/site-packages (from ipython>=4.0.0->ipywidgets) (0.7.5)
+Requirement already satisfied: setuptools>=18.5 in /home/jledesmau/miniconda3/envs/mlflow-6e5e500b8d3267655614239347064c567a25ec25/lib/python3.9/site-packages (from ipython>=4.0.0->ipywidgets) (59.8.0)
+Requirement already satisfied: prompt-toolkit!=3.0.0,!=3.0.1,<3.1.0,>=2.0.0 in /home/jledesmau/miniconda3/envs/mlflow-6e5e500b8d3267655614239347064c567a25ec25/lib/python3.9/site-packages (from ipython>=4.0.0->ipywidgets) (3.0.29)
+Requirement already satisfied: decorator in /home/jledesmau/miniconda3/envs/mlflow-6e5e500b8d3267655614239347064c567a25ec25/lib/python3.9/site-packages (from ipython>=4.0.0->ipywidgets) (5.1.1)
+Requirement already satisfied: parso<0.9.0,>=0.8.0 in /home/jledesmau/miniconda3/envs/mlflow-6e5e500b8d3267655614239347064c567a25ec25/lib/python3.9/site-packages (from jedi>=0.16->ipython>=4.0.0->ipywidgets) (0.8.3)
+Requirement already satisfied: python-dateutil>=2.8.2 in /home/jledesmau/miniconda3/envs/mlflow-6e5e500b8d3267655614239347064c567a25ec25/lib/python3.9/site-packages (from jupyter-client>=6.1.12->ipykernel>=4.5.1->ipywidgets) (2.8.2)
+Requirement already satisfied: entrypoints in /home/jledesmau/miniconda3/envs/mlflow-6e5e500b8d3267655614239347064c567a25ec25/lib/python3.9/site-packages (from jupyter-client>=6.1.12->ipykernel>=4.5.1->ipywidgets) (0.4)
+Requirement already satisfied: pyzmq>=22.3 in /home/jledesmau/miniconda3/envs/mlflow-6e5e500b8d3267655614239347064c567a25ec25/lib/python3.9/site-packages (from jupyter-client>=6.1.12->ipykernel>=4.5.1->ipywidgets) (22.3.0)
+Requirement already satisfied: jupyter-core>=4.9.2 in /home/jledesmau/miniconda3/envs/mlflow-6e5e500b8d3267655614239347064c567a25ec25/lib/python3.9/site-packages (from jupyter-client>=6.1.12->ipykernel>=4.5.1->ipywidgets) (4.9.2)
+Collecting jupyterlab-widgets>=1.0.0
+  Downloading jupyterlab_widgets-1.1.0-py3-none-any.whl (245 kB)
+     |████████████████████████████████| 245 kB 3.1 MB/s
+[?25hRequirement already satisfied: fastjsonschema in /home/jledesmau/miniconda3/envs/mlflow-6e5e500b8d3267655614239347064c567a25ec25/lib/python3.9/site-packages (from nbformat>=4.2.0->ipywidgets) (2.15.3)
+Requirement already satisfied: jsonschema>=2.6 in /home/jledesmau/miniconda3/envs/mlflow-6e5e500b8d3267655614239347064c567a25ec25/lib/python3.9/site-packages (from nbformat>=4.2.0->ipywidgets) (4.4.0)
+Requirement already satisfied: attrs>=17.4.0 in /home/jledesmau/miniconda3/envs/mlflow-6e5e500b8d3267655614239347064c567a25ec25/lib/python3.9/site-packages (from jsonschema>=2.6->nbformat>=4.2.0->ipywidgets) (21.4.0)
+Requirement already satisfied: pyrsistent!=0.17.0,!=0.17.1,!=0.17.2,>=0.14.0 in /home/jledesmau/miniconda3/envs/mlflow-6e5e500b8d3267655614239347064c567a25ec25/lib/python3.9/site-packages (from jsonschema>=2.6->nbformat>=4.2.0->ipywidgets) (0.18.1)
+Requirement already satisfied: ptyprocess>=0.5 in /home/jledesmau/miniconda3/envs/mlflow-6e5e500b8d3267655614239347064c567a25ec25/lib/python3.9/site-packages (from pexpect>4.3->ipython>=4.0.0->ipywidgets) (0.7.0)
+Requirement already satisfied: wcwidth in /home/jledesmau/miniconda3/envs/mlflow-6e5e500b8d3267655614239347064c567a25ec25/lib/python3.9/site-packages (from prompt-toolkit!=3.0.0,!=3.0.1,<3.1.0,>=2.0.0->ipython>=4.0.0->ipywidgets) (0.2.5)
+Requirement already satisfied: six>=1.5 in /home/jledesmau/miniconda3/envs/mlflow-6e5e500b8d3267655614239347064c567a25ec25/lib/python3.9/site-packages (from python-dateutil>=2.8.2->jupyter-client>=6.1.12->ipykernel>=4.5.1->ipywidgets) (1.16.0)
+Collecting widgetsnbextension~=3.6.0
+  Downloading widgetsnbextension-3.6.0-py2.py3-none-any.whl (1.6 MB)
+     |████████████████████████████████| 1.6 MB 1.0 MB/s
+[?25hRequirement already satisfied: notebook>=4.4.1 in /home/jledesmau/miniconda3/envs/mlflow-6e5e500b8d3267655614239347064c567a25ec25/lib/python3.9/site-packages (from widgetsnbextension~=3.6.0->ipywidgets) (6.4.11)
+Requirement already satisfied: jinja2 in /home/jledesmau/miniconda3/envs/mlflow-6e5e500b8d3267655614239347064c567a25ec25/lib/python3.9/site-packages (from notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets) (3.1.2)
+Requirement already satisfied: nbconvert>=5 in /home/jledesmau/miniconda3/envs/mlflow-6e5e500b8d3267655614239347064c567a25ec25/lib/python3.9/site-packages (from notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets) (6.5.0)
+Requirement already satisfied: Send2Trash>=1.8.0 in /home/jledesmau/miniconda3/envs/mlflow-6e5e500b8d3267655614239347064c567a25ec25/lib/python3.9/site-packages (from notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets) (1.8.0)
+Requirement already satisfied: prometheus-client in /home/jledesmau/miniconda3/envs/mlflow-6e5e500b8d3267655614239347064c567a25ec25/lib/python3.9/site-packages (from notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets) (0.14.1)
+Requirement already satisfied: argon2-cffi in /home/jledesmau/miniconda3/envs/mlflow-6e5e500b8d3267655614239347064c567a25ec25/lib/python3.9/site-packages (from notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets) (21.3.0)
+Requirement already satisfied: terminado>=0.8.3 in /home/jledesmau/miniconda3/envs/mlflow-6e5e500b8d3267655614239347064c567a25ec25/lib/python3.9/site-packages (from notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets) (0.13.3)
+Requirement already satisfied: jupyterlab-pygments in /home/jledesmau/miniconda3/envs/mlflow-6e5e500b8d3267655614239347064c567a25ec25/lib/python3.9/site-packages (from nbconvert>=5->notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets) (0.2.2)
+Requirement already satisfied: mistune<2,>=0.8.1 in /home/jledesmau/miniconda3/envs/mlflow-6e5e500b8d3267655614239347064c567a25ec25/lib/python3.9/site-packages (from nbconvert>=5->notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets) (0.8.4)
+Requirement already satisfied: tinycss2 in /home/jledesmau/miniconda3/envs/mlflow-6e5e500b8d3267655614239347064c567a25ec25/lib/python3.9/site-packages (from nbconvert>=5->notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets) (1.1.1)
+Requirement already satisfied: bleach in /home/jledesmau/miniconda3/envs/mlflow-6e5e500b8d3267655614239347064c567a25ec25/lib/python3.9/site-packages (from nbconvert>=5->notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets) (5.0.0)
+Requirement already satisfied: pandocfilters>=1.4.1 in /home/jledesmau/miniconda3/envs/mlflow-6e5e500b8d3267655614239347064c567a25ec25/lib/python3.9/site-packages (from nbconvert>=5->notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets) (1.5.0)
+Requirement already satisfied: beautifulsoup4 in /home/jledesmau/miniconda3/envs/mlflow-6e5e500b8d3267655614239347064c567a25ec25/lib/python3.9/site-packages (from nbconvert>=5->notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets) (4.11.1)
+Requirement already satisfied: nbclient>=0.5.0 in /home/jledesmau/miniconda3/envs/mlflow-6e5e500b8d3267655614239347064c567a25ec25/lib/python3.9/site-packages (from nbconvert>=5->notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets) (0.6.2)
+Requirement already satisfied: defusedxml in /home/jledesmau/miniconda3/envs/mlflow-6e5e500b8d3267655614239347064c567a25ec25/lib/python3.9/site-packages (from nbconvert>=5->notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets) (0.7.1)
+Requirement already satisfied: MarkupSafe>=2.0 in /home/jledesmau/miniconda3/envs/mlflow-6e5e500b8d3267655614239347064c567a25ec25/lib/python3.9/site-packages (from nbconvert>=5->notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets) (2.1.1)
+Requirement already satisfied: argon2-cffi-bindings in /home/jledesmau/miniconda3/envs/mlflow-6e5e500b8d3267655614239347064c567a25ec25/lib/python3.9/site-packages (from argon2-cffi->notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets) (21.2.0)
+Requirement already satisfied: cffi>=1.0.1 in /home/jledesmau/miniconda3/envs/mlflow-6e5e500b8d3267655614239347064c567a25ec25/lib/python3.9/site-packages (from argon2-cffi-bindings->argon2-cffi->notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets) (1.15.0)
+Requirement already satisfied: pycparser in /home/jledesmau/miniconda3/envs/mlflow-6e5e500b8d3267655614239347064c567a25ec25/lib/python3.9/site-packages (from cffi>=1.0.1->argon2-cffi-bindings->argon2-cffi->notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets) (2.21)
+Requirement already satisfied: soupsieve>1.2 in /home/jledesmau/miniconda3/envs/mlflow-6e5e500b8d3267655614239347064c567a25ec25/lib/python3.9/site-packages (from beautifulsoup4->nbconvert>=5->notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets) (2.3.1)
+Requirement already satisfied: webencodings in /home/jledesmau/miniconda3/envs/mlflow-6e5e500b8d3267655614239347064c567a25ec25/lib/python3.9/site-packages (from bleach->nbconvert>=5->notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets) (0.5.1)
+Requirement already satisfied: pyparsing!=3.0.5,>=2.0.2 in /home/jledesmau/miniconda3/envs/mlflow-6e5e500b8d3267655614239347064c567a25ec25/lib/python3.9/site-packages (from packaging->ipykernel>=4.5.1->ipywidgets) (3.0.8)
+Requirement already satisfied: pure-eval in /home/jledesmau/miniconda3/envs/mlflow-6e5e500b8d3267655614239347064c567a25ec25/lib/python3.9/site-packages (from stack-data->ipython>=4.0.0->ipywidgets) (0.2.2)
+Requirement already satisfied: executing in /home/jledesmau/miniconda3/envs/mlflow-6e5e500b8d3267655614239347064c567a25ec25/lib/python3.9/site-packages (from stack-data->ipython>=4.0.0->ipywidgets) (0.8.3)
+Requirement already satisfied: asttokens in /home/jledesmau/miniconda3/envs/mlflow-6e5e500b8d3267655614239347064c567a25ec25/lib/python3.9/site-packages (from stack-data->ipython>=4.0.0->ipywidgets) (2.0.5)
+Installing collected packages: widgetsnbextension, jupyterlab-widgets, ipywidgets
+Successfully installed ipywidgets-7.7.0 jupyterlab-widgets-1.1.0 widgetsnbextension-3.6.0
+
+
+
+
+
+
+
+Summarize dataset: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 153/153 [00:16<00:00,  9.42it/s, Completed]
+Generate report structure: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:03<00:00,  3.75s/it]
+
+Render widgets:   0%|                                                                                                                                                                                      | 0/1 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+Summarize dataset: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 153/153 [00:15<00:00,  9.87it/s, Completed]
+Generate report structure: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:03<00:00,  3.90s/it]
+
+Render widgets:   0%|                                                                                                                                                                                      | 0/1 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+Summarize dataset: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 153/153 [00:16<00:00,  9.45it/s, Completed]
+Generate report structure: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:04<00:00,  4.20s/it]
+
+Render widgets:   0%|                                                                                                                                                                                      | 0/1 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+Summarize dataset: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 153/153 [00:16<00:00,  9.54it/s, Completed]
+Generate report structure: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:04<00:00,  4.63s/it]
+
+Render HTML: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:03<00:00,  3.12s/it]

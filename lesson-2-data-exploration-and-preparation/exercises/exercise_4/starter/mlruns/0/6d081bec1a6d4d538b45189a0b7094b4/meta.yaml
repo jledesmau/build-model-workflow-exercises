@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jledesmau/build-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/mlruns/0/6d081bec1a6d4d538b45189a0b7094b4/artifacts
+end_time: 1651796085273
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 6d081bec1a6d4d538b45189a0b7094b4
+run_uuid: 6d081bec1a6d4d538b45189a0b7094b4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1651793978482
+status: 3
+tags: []
+user_id: jledesmau

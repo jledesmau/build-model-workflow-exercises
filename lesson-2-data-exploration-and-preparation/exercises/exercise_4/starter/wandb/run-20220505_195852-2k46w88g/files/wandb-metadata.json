@@ -1,0 +1,21 @@
+{
+    "os": "Linux-5.10.16.3-microsoft-standard-WSL2-x86_64-with-glibc2.31",
+    "python": "3.9.12",
+    "heartbeatAt": "2022-05-05T23:58:52.977307",
+    "startedAt": "2022-05-05T23:58:52.069698",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "EDA.ipynb",
+    "root": "/home/jledesmau/build-model-workflow-exercises",
+    "git": {
+        "remote": "https://github.com/jledesmau/build-model-workflow-exercises.git",
+        "commit": "257cca3dc3ff32cedb0cc453dd77b6a78a8ff18f"
+    },
+    "email": "jledesmau@gmail.com",
+    "host": "LAPTOP-OPH8MA4M",
+    "username": "jledesmau",
+    "executable": "/home/jledesmau/miniconda3/envs/mlflow-6e5e500b8d3267655614239347064c567a25ec25/bin/python"
+}

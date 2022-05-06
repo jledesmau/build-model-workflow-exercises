@@ -1,0 +1,29 @@
+diff --git a/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/MLproject b/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/MLproject
+index e69de29..71bbf66 100644
+--- a/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/MLproject
++++ b/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/MLproject
+@@ -0,0 +1,7 @@
++name: download_data
++conda_env: conda.yml
++
++entry_points:
++  main:
++    command: >-
++      jupyter notebook
+\ No newline at end of file
+diff --git a/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/conda.yml b/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/conda.yml
+index f216511..673ff0e 100644
+--- a/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/conda.yml
++++ b/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/conda.yml
+@@ -7,7 +7,7 @@ dependencies:
+   - seaborn=0.11.1
+   - pandas=1.2.3
+   - pip=20.3.3
+-  - pandas-profiling=2.11.0
++  - pandas-profiling
+   - pyarrow=2.0
+   - pip:
+-      - wandb==0.10.21
+\ No newline at end of file
++      - wandb
+\ No newline at end of file
