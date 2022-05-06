@@ -1,0 +1,65 @@
+[1mcollected 3 items                                                                                                                                 
+test_data.py::test_column_presence_and_type [32mPASSED
+test_data.py::test_class_names [31mFAILED
+test_data.py::test_column_ranges [31mFAILED
+==================================================================== FAILURES =====================================================================
+[31m[1m________________________________________________________________ test_class_names _________________________________________________________________
+data =        danceability  energy  ...                        title                                    text_feature
+0       ...29   0.945  ...       Best of Hardstyle 2020                         Best of Hardstyle 2020
+[41975 rows x 18 columns]
+    def test_class_names(data):
+        known_classes = [
+            "Dark Trap",
+            "Underground Rap",
+            "Trap Metal",
+            "Emo",
+            "Rap",
+            "RnB",
+            "Pop",
+            "Hiphop",
+            "techhouse",
+            "techno",
+            "trance",
+            "psytrance",
+            "trap",
+            "dnb",
+            "hardstyle",
+        ]
+        # YOUR CODE HERE: implement a test that checks the "genre" column to make sure
+        # that the class names are legal
+        # HINT: you can use the .isin method of pandas, and .all to check that the condition
+        # is true for every row. For example, df['one'].isin(['a','b','c']).all() is True if
+        # all values in column "one" are contained in the list 'a', 'b', 'c'
+>       assert df['genre'].isin(known_classes).all(), "Class names in 'genre' are not legal."
+[31m[1mE       NameError: name 'df' is not defined
+[31m[1mtest_data.py[39m[22m:76: NameError
+[31m[1m_______________________________________________________________ test_column_ranges ________________________________________________________________
+data =        danceability  energy  ...                        title                                    text_feature
+0       ...29   0.945  ...       Best of Hardstyle 2020                         Best of Hardstyle 2020
+[41975 rows x 18 columns]
+    def test_column_ranges(data):
+        ranges = {
+            "time_signature": (1, 5),
+            "key": (0, 11),
+            "danceability": (0, 1),
+            "energy": (0, 1),
+            "loudness": (-35, 5),
+            "speechiness": (0, 1),
+            "acousticness": (0, 1),
+            "instrumentalness": (0, 1),
+            "liveness": (0, 1),
+            "valence": (0, 1),
+            "tempo": (50, 250),
+            "duration_ms": (20000, 1000000),
+        }
+        for col_name, (minimum, maximum) in ranges.items():
+            # YOUR CODE HERE: check that the values in the column col_name are within the expected range
+            # HINT: look at the .between method of pandas, and then use .all() like in the previous
+            # test
+>           assert df[col_name].between(minimum, maximum).all, f"Column {col_name} is out of range"
+[31m[1mE           NameError: name 'df' is not defined
+[31m[1mtest_data.py[39m[22m:99: NameError
+============================================================= short test summary info =============================================================
+FAILED test_data.py::test_class_names - NameError: name 'df' is not defined
+FAILED test_data.py::test_column_ranges - NameError: name 'df' is not defined
+[31m=========================================================== [1m2 failed[39m[22m, [32m1 passed[31m in 7.35s ===========================================================
