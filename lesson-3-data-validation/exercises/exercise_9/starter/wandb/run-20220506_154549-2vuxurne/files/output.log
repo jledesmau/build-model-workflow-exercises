@@ -1,0 +1,7 @@
+[1m=============================================================== test session starts ================================================================
+platform linux -- Python 3.9.12, pytest-6.2.2, py-1.11.0, pluggy-0.13.1 -- /home/jledesmau/miniconda3/envs/mlflow-acbfa4ee4aa9be3158264a605e4861dd8a78622b/bin/python
+cachedir: .pytest_cache
+rootdir: /home/jledesmau/build-model-workflow-exercises/lesson-3-data-validation/exercises/exercise_9/starter
+[1mcollected 1 item                                                                                                                                   
+test_data.py::test_kolmogorov_smirnov [32mPASSED
+[32m================================================================ [1m1 passed[22m in 6.58s =================================================================

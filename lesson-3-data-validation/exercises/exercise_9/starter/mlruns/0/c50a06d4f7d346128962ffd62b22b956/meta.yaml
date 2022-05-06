@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jledesmau/build-model-workflow-exercises/lesson-3-data-validation/exercises/exercise_9/starter/mlruns/0/c50a06d4f7d346128962ffd62b22b956/artifacts
+end_time: 1651866403862
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: c50a06d4f7d346128962ffd62b22b956
+run_uuid: c50a06d4f7d346128962ffd62b22b956
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1651866385743
+status: 4
+tags: []
+user_id: jledesmau
