@@ -1,0 +1,7 @@
+2022-05-05 21:59:28,574 Downloading and reading artifact
+2022-05-05 21:59:29,894 Splitting data into train and test
+2022-05-05 21:59:29,902 Uploading the train dataset to data_train.csv
+2022-05-05 21:59:30,107 Logging artifact
+2022-05-05 21:59:37,661 Uploading the test dataset to data_test.csv
+2022-05-05 21:59:37,753 Logging artifact
+[34m[1mwandb[39m[22m: [33mWARNING[39m A graphql request initiated by the public wandb API timed out (timeout=9 sec). Create a new API with an integer timeout larger than 9, e.g., `api = wandb.Api(timeout=19)` to increase the graphql timeout.
