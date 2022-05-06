@@ -1,0 +1,14 @@
+2022-05-05 21:23:10,389 Logging artifact
+2022-05-05 21:23:11,014 Loading dataframe
+2022-05-05 21:23:11,594 Removing duplicates
+2022-05-05 21:23:11,626 Creating new features
+2022-05-05 21:23:11,633 Saving output file
+2022-05-05 21:23:11,889 Adding file to artifact
+Traceback (most recent call last):
+  File "/home/jledesmau/build-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_5/starter/run.py", line 78, in <module>
+    go(args)
+  File "/home/jledesmau/build-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_5/starter/run.py", line 36, in go
+    artifact.add_file(args.artifact_name)
+  File "/home/jledesmau/miniconda3/envs/mlflow-1fa9c3e3c38164ff421411ef8f6a81e0473ecdef/lib/python3.9/site-packages/wandb/apis/public.py", line 3748, in add_file
+    raise ValueError("Cannot add files to an artifact once it has been saved")
+ValueError: Cannot add files to an artifact once it has been saved

@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 import argparse
 import logging
+import os
 import pandas as pd
 import wandb
 
@@ -11,25 +12,42 @@ logger = logging.getLogger()
 
 def go(args):
 
-    run = wandb.init(project="exercise_5", group = "experiment_!", job_type="process_data")
+    logging.info("Starting W&B")
+    run = wandb.init(project="exercise_5", job_type="process_data")
 
+    logging.info("Logging artifact")
     artifact = run.use_artifact(args.input_artifact)
-    
+
+    logging.info("Loading dataframe")    
     df = pd.read_parquet(artifact.file())
-    
+
+    logging.info("Removing duplicates")    
     df = df.drop_duplicates().reset_index(drop=True)
-    
+
+    logging.info("Creating new features")    
     df['title'].fillna(value='', inplace=True)
     df['song_name'].fillna(value='', inplace=True)
     df['text_feature'] = df['title'] + ' ' + df['song_name']
-    
+
+    logging.info("Saving output file")    
     df.to_csv(args.artifact_name, index=False)
 
-    artifact.add_file("preprocessed_data.csv")
+    logging.info("Adding file to artifact")
+    artifact = wandb.Artifact(
+        name=args.artifact_name,
+        type=args.artifact_type,
+        description=args.artifact_description,
+    )
+    artifact.add_file(args.artifact_name)
 
+    logging.info("Logging artifact to W&B")
     run.log_artifact(artifact)
 
+    logging.info("Closing W&B")
     run.finish()
+
+    logging.info("Deleting file")
+    os.remove(args.artifact_name)
 
 
 if __name__ == "__main__":

@@ -1,0 +1,8 @@
+2022-05-05 21:26:14,729 Logging artifact
+2022-05-05 21:26:15,646 Loading dataframe
+2022-05-05 21:26:16,240 Removing duplicates
+2022-05-05 21:26:16,272 Creating new features
+2022-05-05 21:26:16,281 Saving output file
+2022-05-05 21:26:16,534 Adding file to artifact
+2022-05-05 21:26:16,560 Logging artifact to W&B
+2022-05-05 21:26:16,758 Closing W&B
